@@ -1,5 +1,5 @@
 <template>
-    <div data-section="titleWeb" class="relative h-screen">
-        <h1 class="absolute top-[69px] left-[125px] -translate-x-1/2 -translate-y-1/2">coolingy's</h1>
+    <div data-section="titleWeb" class="relative h-screen w-full bg-gray-200 flex justify-center items-center  ">
+        <h1 class="text-4xl font-bold text-gray-800"">coolingy's</h1>
     </div>
 </template>
