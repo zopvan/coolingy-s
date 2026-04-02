@@ -28,14 +28,29 @@
                         <h2>10.0 °c</h2>
                     </div>
                     <div class="py-1 px-2">
-                        <p>timer</p>
+                        <p>Timer</p>
                         <h2>0.0 m</h2>
                     </div>
+                </div>
+
+                <div class="flex justify-between p-1">
+                    <p>P</p>
+                    <p>Connected</p>
                 </div>
             </div>
             <div class="text-[12px] flex justify-center items-center">
                 Realtime Monitor
             </div>
         </div>
+
+        <div class="flex justify-between mt-10 gap-59">
+            <div class="border-2 rounded-full aspect-square flex w-13.25 justify-center items-center">
+                <p class="text-[14px] align-middle">Mode</p>
+            </div>
+            <div class="border-2 rounded-full aspect-square flex w-13.25 justify-center items-center">
+                <p class="text-[14px] align-middle">Timer</p>
+            </div>
+        </div>
+
     </div>
 </template>
