@@ -1,6 +1,6 @@
 <template>
     <div
-        class="justify-items-center mx-auto w-full max-w-[412px] overflow-x-hidden"
+        class="justify-items-center mx-auto w-full max-w-103 overflow-x-hidden"
     >
         <div
             data-section="titleWeb"
@@ -17,7 +17,7 @@
                 </div>
 
                 <div
-                    class="mt-2.5 grid grid-cols-3 border-t-1 border-b-1 divide-x-1 border-gray-600 divide-gray-600"
+                    class="mt-2.5 grid grid-cols-3 border-t border-b divide-x border-gray-600 divide-gray-600"
                 >
                     <div class="py-1 px-2">
                         <p>Speed fan</p>
@@ -44,10 +44,43 @@
         </div>
 
         <div class="flex justify-between mt-10 gap-59">
-            <div class="border-2 rounded-full aspect-square flex w-13.25 justify-center items-center">
+            <div
+                class="border-2 border-gray-600/50 rounded-full aspect-square flex w-13.25 justify-center items-center"
+            >
                 <p class="text-[14px] align-middle">Mode</p>
             </div>
-            <div class="border-2 rounded-full aspect-square flex w-13.25 justify-center items-center">
+            <div
+                class="border-2 border-gray-600/50 rounded-full aspect-square flex w-13.25 justify-center items-center"
+            >
+                <p class="text-[14px] align-middle">Timer</p>
+            </div>
+        </div>
+
+        <div class="border-2 border-gray-600/50 rounded-full aspect-square flex w-25 justify-center items-center mt-10 ">
+            <button class="text-[30px]">
+                ON
+            </button>
+        </div>
+
+        <div class="flex mt-14 gap-11">
+            <div
+                class="border-2 border-gray-600/50 rounded-full aspect-square flex w-13.25 justify-center items-center"
+            >
+                <p class="text-[14px] align-middle">Mode</p>
+            </div>
+            <div
+                class="border-2 border-gray-600/50 rounded-full aspect-square flex w-13.25 justify-center items-center"
+            >
+                <p class="text-[14px] align-middle">Mode</p>
+            </div>
+            <div
+                class="border-2 border-gray-600/50 rounded-full aspect-square flex w-13.25 justify-center items-center"
+            >
+                <p class="text-[14px] align-middle">Mode</p>
+            </div>
+            <div
+                class="border-2 border-gray-600/50 rounded-full aspect-square flex w-13.25 justify-center items-center"
+            >
                 <p class="text-[14px] align-middle">Timer</p>
             </div>
         </div>
