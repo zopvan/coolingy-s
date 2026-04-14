@@ -6,10 +6,10 @@
             data-section="titleWeb"
             class="mt-17.5 h-full mb-8 flex justify-center items-center"
         >
-            <h1 class="text-[24px] font-bold text-gray-800">Coolingy's</h1>
+            <h1 class="text-[24px] font-bold text-gray-800 font-family: montserrat">Coolingy's</h1>
         </div>
 
-        <div class="bg-[#F2F2F2] p-1 w-87 h-full">
+        <div class="bg-[#F2F2F2] p-1 w-87 h-full font-family: technology">
             <div class="bg-[#D3D3D3] m-1 mt-1">
                 <div class="flex justify-between pl-1.5 pr-1.5 pt-2.5">
                     <p>Coolingy's v 1.0</p>
@@ -56,10 +56,10 @@
             </div>
         </div>
 
-        <div class="border-2 border-gray-600/50 rounded-full aspect-square flex w-25 justify-center items-center mt-10 ">
-            <button class="text-[30px]">
-                ON
-            </button>
+        <div
+            class="border-2 border-gray-600/50 rounded-full aspect-square flex w-25 justify-center items-center mt-10"
+        >
+            <button class="text-[30px]">ON</button>
         </div>
 
         <div class="flex mt-14 gap-11">
@@ -84,6 +84,5 @@
                 <p class="text-[14px] align-middle">Timer</p>
             </div>
         </div>
-
     </div>
 </template>
